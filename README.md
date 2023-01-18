@@ -1,0 +1,3 @@
+O API do Observador de Interseção é uma API JavaScript que nos permite observar um elemento e detectar quando passa um ponto especificado em um contêiner de rolagem - geralmente (mas nem sempre) a viewport - acionando uma função de retorno de chamada.
+
+O Observador de interseção pode ser considerado mais eficiente do que ouvir eventos de rolagem no encadeamento principal, pois é assíncrono, e o retorno de chamada só será acionado quando o elemento que estamos observando atender ao limite especificado, sempre que a posição do rolagem for atualizada. Neste artigo, examinaremos um exemplo de como podemos usar o Intersection Observer para criar um componente de cabeçalho fixo que muda quando se cruza com diferentes seções da página da web.
